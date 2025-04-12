@@ -1,0 +1,142 @@
+2025-03-12 17:30:57,822: Running clean trial
+========================================================= test session starts =========================================================
+platform win32 -- Python 3.9.13, pytest-8.3.4, pluggy-1.5.0
+rootdir: C:\Masters\SYSC5807X\SYSC5807_Term_Proj\z3_quadratic_solver
+plugins: anyio-4.8.0, hypothesis-6.127.2, langsmith-0.3.8
+collected 1 item                                                                                                                       
+
+test_quadratic_solver_z3.py .                                                                                                    [100%]
+
+========================================================== 1 passed in 0.40s ==========================================================
+2025-03-12 17:30:58,970: 53 mutation targets found in quadratic_solver2.py AST.
+2025-03-12 17:30:58,971: Setting random.seed to: None
+2025-03-12 17:30:58,974: Total sample space size: 50
+2025-03-12 17:30:58,974: Selecting 10 locations from 50 potentials.
+2025-03-12 17:30:58,974: Starting individual mutation trials!
+2025-03-12 17:30:58,976: Running serial (single processor) dispatch mode.
+2025-03-12 17:30:58,976: Current target location: quadratic_solver2.py, LocIndex(ast_class='BoolOp', lineno=78, col_offset=11, op_type=<class 'ast.And'>, end_lineno=78, end_col_offset=98)
+2025-03-12 17:31:00,097: Result: Survived at quadratic_solver2.py: (78, 11)
+2025-03-12 17:31:00,097: Break on survival: stopping further mutations at location.
+2025-03-12 17:31:00,097: Current target location: quadratic_solver2.py, LocIndex(ast_class='BinOp', lineno=59, col_offset=20, op_type=<class 'ast.Div'>, end_lineno=59, end_col_offset=34)
+2025-03-12 17:31:01,330: Result: Detected at quadratic_solver2.py: (59, 20)
+2025-03-12 17:31:02,537: Result: Detected at quadratic_solver2.py: (59, 20)
+2025-03-12 17:31:03,736: Result: Detected at quadratic_solver2.py: (59, 20)
+2025-03-12 17:31:04,938: Result: Detected at quadratic_solver2.py: (59, 20)
+2025-03-12 17:31:06,131: Result: Detected at quadratic_solver2.py: (59, 20)
+2025-03-12 17:31:07,333: Result: Detected at quadratic_solver2.py: (59, 20)
+2025-03-12 17:31:07,334: Current target location: quadratic_solver2.py, LocIndex(ast_class='If', lineno=21, col_offset=4, op_type='If_Statement', end_lineno=24, end_col_offset=17)
+2025-03-12 17:31:08,431: Result: Survived at quadratic_solver2.py: (21, 4)
+2025-03-12 17:31:08,432: Break on survival: stopping further mutations at location.
+2025-03-12 17:31:08,432: Current target location: quadratic_solver2.py, LocIndex(ast_class='BinOp', lineno=101, col_offset=25, op_type=<class 'ast.Add'>, end_lineno=101, end_col_offset=51)
+2025-03-12 17:31:09,620: Result: Detected at quadratic_solver2.py: (101, 25)
+2025-03-12 17:31:10,803: Result: Detected at quadratic_solver2.py: (101, 25)
+2025-03-12 17:31:12,002: Result: Detected at quadratic_solver2.py: (101, 25)
+2025-03-12 17:31:13,204: Result: Detected at quadratic_solver2.py: (101, 25)
+2025-03-12 17:31:14,408: Result: Detected at quadratic_solver2.py: (101, 25)
+2025-03-12 17:31:15,623: Result: Detected at quadratic_solver2.py: (101, 25)
+2025-03-12 17:31:15,623: Current target location: quadratic_solver2.py, LocIndex(ast_class='BinOp', lineno=33, col_offset=29, op_type=<class 'ast.Div'>, end_lineno=33, end_col_offset=45)
+2025-03-12 17:31:16,844: Result: Detected at quadratic_solver2.py: (33, 29)
+2025-03-12 17:31:17,964: Result: Survived at quadratic_solver2.py: (33, 29)
+2025-03-12 17:31:17,964: Break on survival: stopping further mutations at location.
+2025-03-12 17:31:17,965: Current target location: quadratic_solver2.py, LocIndex(ast_class='If', lineno=102, col_offset=8, op_type='If_Statement', end_lineno=103, end_col_offset=24)
+2025-03-12 17:31:19,186: Result: Detected at quadratic_solver2.py: (102, 8)
+2025-03-12 17:31:20,294: Result: Survived at quadratic_solver2.py: (102, 8)
+2025-03-12 17:31:20,295: Break on survival: stopping further mutations at location.
+2025-03-12 17:31:20,295: Current target location: quadratic_solver2.py, LocIndex(ast_class='BinOp', lineno=58, col_offset=21, op_type=<class 'ast.Mult'>, end_lineno=58, end_col_offset=26)
+2025-03-12 17:31:21,415: Result: Survived at quadratic_solver2.py: (58, 21)
+2025-03-12 17:31:21,415: Break on survival: stopping further mutations at location.
+2025-03-12 17:31:21,415: Current target location: quadratic_solver2.py, LocIndex(ast_class='BinOp', lineno=66, col_offset=13, op_type=<class 'ast.Div'>, end_lineno=66, end_col_offset=18)
+2025-03-12 17:31:22,516: Result: Survived at quadratic_solver2.py: (66, 13)
+2025-03-12 17:31:22,516: Break on survival: stopping further mutations at location.
+2025-03-12 17:31:22,517: Current target location: quadratic_solver2.py, LocIndex(ast_class='NameConstant', lineno=105, col_offset=11, op_type=True, end_lineno=105, end_col_offset=15)
+2025-03-12 17:31:23,728: Result: Detected at quadratic_solver2.py: (105, 11)
+2025-03-12 17:31:24,931: Result: Detected at quadratic_solver2.py: (105, 11)
+2025-03-12 17:31:24,931: Current target location: quadratic_solver2.py, LocIndex(ast_class='BinOp', lineno=67, col_offset=13, op_type=<class 'ast.Div'>, end_lineno=67, end_col_offset=18)
+2025-03-12 17:31:26,167: Result: Detected at quadratic_solver2.py: (67, 13)
+2025-03-12 17:31:27,373: Result: Detected at quadratic_solver2.py: (67, 13)
+2025-03-12 17:31:28,582: Result: Detected at quadratic_solver2.py: (67, 13)
+2025-03-12 17:31:29,791: Result: Detected at quadratic_solver2.py: (67, 13)
+2025-03-12 17:31:31,007: Result: Detected at quadratic_solver2.py: (67, 13)
+2025-03-12 17:31:32,211: Result: Detected at quadratic_solver2.py: (67, 13)
+2025-03-12 17:31:32,212: Running clean trial
+========================================================= test session starts =========================================================
+platform win32 -- Python 3.9.13, pytest-8.3.4, pluggy-1.5.0
+rootdir: C:\Masters\SYSC5807X\SYSC5807_Term_Proj\z3_quadratic_solver
+plugins: anyio-4.8.0, hypothesis-6.127.2, langsmith-0.3.8
+collected 1 item                                                                                                                       
+
+test_quadratic_solver_z3.py .                                                                                                    [100%]
+
+========================================================== 1 passed in 0.38s ==========================================================
+2025-03-12 17:31:33,330: CLI Report:
+
+Mutatest diagnostic summary
+===========================
+ - Source location: C:\Masters\SYSC5807X\SYSC5807_Term_Proj\z3_quadratic_solver\quadratic_solver2.py
+ - Test commands: ['pytest']
+ - Mode: s
+ - Excluded files: []
+ - N locations input: 10
+ - Random seed: None
+
+Random sample details
+---------------------
+ - Total locations mutated: 10
+ - Total locations identified: 50
+ - Location sample coverage: 20.00 %
+
+
+Running time details
+--------------------
+ - Clean trial 1 run time: 0:00:01.146104
+ - Clean trial 2 run time: 0:00:01.115996
+ - Mutation trials total run time: 0:00:33.243005
+
+2025-03-12 17:31:33,330: Trial Summary Report:
+
+Overall mutation trial summary
+==============================
+ - SURVIVED: 6
+ - DETECTED: 22
+ - TOTAL RUNS: 28
+ - RUN DATETIME: 2025-03-12 17:31:33.329191
+
+2025-03-12 17:31:33,331: Detected mutations:
+
+DETECTED
+--------
+ - quadratic_solver2.py: (l: 33, c: 29) - mutation from <class 'ast.Div'> to <class 'ast.Sub'>
+ - quadratic_solver2.py: (l: 59, c: 20) - mutation from <class 'ast.Div'> to <class 'ast.Add'>
+ - quadratic_solver2.py: (l: 59, c: 20) - mutation from <class 'ast.Div'> to <class 'ast.Sub'>
+ - quadratic_solver2.py: (l: 59, c: 20) - mutation from <class 'ast.Div'> to <class 'ast.Mult'>
+ - quadratic_solver2.py: (l: 59, c: 20) - mutation from <class 'ast.Div'> to <class 'ast.Mod'>
+ - quadratic_solver2.py: (l: 59, c: 20) - mutation from <class 'ast.Div'> to <class 'ast.Pow'>
+ - quadratic_solver2.py: (l: 59, c: 20) - mutation from <class 'ast.Div'> to <class 'ast.FloorDiv'>
+ - quadratic_solver2.py: (l: 67, c: 13) - mutation from <class 'ast.Div'> to <class 'ast.Sub'>
+ - quadratic_solver2.py: (l: 67, c: 13) - mutation from <class 'ast.Div'> to <class 'ast.Mult'>
+ - quadratic_solver2.py: (l: 67, c: 13) - mutation from <class 'ast.Div'> to <class 'ast.Mod'>
+ - quadratic_solver2.py: (l: 67, c: 13) - mutation from <class 'ast.Div'> to <class 'ast.Add'>
+ - quadratic_solver2.py: (l: 67, c: 13) - mutation from <class 'ast.Div'> to <class 'ast.Pow'>
+ - quadratic_solver2.py: (l: 67, c: 13) - mutation from <class 'ast.Div'> to <class 'ast.FloorDiv'>
+ - quadratic_solver2.py: (l: 101, c: 25) - mutation from <class 'ast.Add'> to <class 'ast.Div'>
+ - quadratic_solver2.py: (l: 101, c: 25) - mutation from <class 'ast.Add'> to <class 'ast.Mod'>
+ - quadratic_solver2.py: (l: 101, c: 25) - mutation from <class 'ast.Add'> to <class 'ast.Pow'>
+ - quadratic_solver2.py: (l: 101, c: 25) - mutation from <class 'ast.Add'> to <class 'ast.Sub'>
+ - quadratic_solver2.py: (l: 101, c: 25) - mutation from <class 'ast.Add'> to <class 'ast.Mult'>
+ - quadratic_solver2.py: (l: 101, c: 25) - mutation from <class 'ast.Add'> to <class 'ast.FloorDiv'>
+ - quadratic_solver2.py: (l: 102, c: 8) - mutation from If_Statement to If_True
+ - quadratic_solver2.py: (l: 105, c: 11) - mutation from True to None
+ - quadratic_solver2.py: (l: 105, c: 11) - mutation from True to False
+
+2025-03-12 17:31:33,331: Timedout mutations:
+
+2025-03-12 17:31:33,332: Surviving mutations:
+
+SURVIVED
+--------
+ - quadratic_solver2.py: (l: 21, c: 4) - mutation from If_Statement to If_False
+ - quadratic_solver2.py: (l: 33, c: 29) - mutation from <class 'ast.Div'> to <class 'ast.Mult'>
+ - quadratic_solver2.py: (l: 58, c: 21) - mutation from <class 'ast.Mult'> to <class 'ast.Pow'>
+ - quadratic_solver2.py: (l: 66, c: 13) - mutation from <class 'ast.Div'> to <class 'ast.Pow'>
+ - quadratic_solver2.py: (l: 78, c: 11) - mutation from <class 'ast.And'> to <class 'ast.Or'>
+ - quadratic_solver2.py: (l: 102, c: 8) - mutation from If_Statement to If_False

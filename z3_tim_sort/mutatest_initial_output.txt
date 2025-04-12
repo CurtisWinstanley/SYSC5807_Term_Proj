@@ -1,0 +1,161 @@
+2025-03-30 10:22:40,834: Running clean trial
+============================================================ test session starts ============================================================
+platform win32 -- Python 3.9.13, pytest-8.3.4, pluggy-1.5.0
+rootdir: C:\Masters\SYSC5807X\SYSC5807_Term_Proj\z3_tim_sort
+plugins: anyio-4.8.0, hypothesis-6.127.2, langsmith-0.3.8
+collected 1 item                                                                                                                             
+
+test_tim_sort_z3.py .                                                                                                                  [100%]
+
+============================================================= 1 passed in 0.51s =============================================================
+2025-03-30 10:22:42,617: 48 mutation targets found in Tim_Sort.py AST.
+2025-03-30 10:22:42,617: Setting random.seed to: None
+2025-03-30 10:22:42,622: Total sample space size: 48
+2025-03-30 10:22:42,623: Selecting 10 locations from 48 potentials.
+2025-03-30 10:22:42,623: Starting individual mutation trials!
+2025-03-30 10:22:42,623: Running serial (single processor) dispatch mode.
+2025-03-30 10:22:42,623: Current target location: Tim_Sort.py, LocIndex(ast_class='Compare', lineno=23, col_offset=27, op_type=<class 'ast.Lt'>, end_lineno=23, end_col_offset=46)
+2025-03-30 10:22:43,911: Result: Detected at Tim_Sort.py: (23, 27)
+2025-03-30 10:22:45,135: Result: Detected at Tim_Sort.py: (23, 27)
+2025-03-30 10:22:46,329: Result: Detected at Tim_Sort.py: (23, 27)
+2025-03-30 10:22:47,440: Result: Survived at Tim_Sort.py: (23, 27)
+2025-03-30 10:22:47,440: Break on survival: stopping further mutations at location.
+2025-03-30 10:22:47,440: Current target location: Tim_Sort.py, LocIndex(ast_class='BinOp', lineno=77, col_offset=25, op_type=<class 'ast.Add'>, end_lineno=77, end_col_offset=40)
+2025-03-30 10:22:48,759: Result: Detected at Tim_Sort.py: (77, 25)
+2025-03-30 10:22:50,050: Result: Detected at Tim_Sort.py: (77, 25)
+2025-03-30 10:22:51,310: Result: Detected at Tim_Sort.py: (77, 25)
+2025-03-30 10:22:52,584: Result: Detected at Tim_Sort.py: (77, 25)
+2025-03-30 10:22:53,827: Result: Detected at Tim_Sort.py: (77, 25)
+2025-03-30 10:22:55,079: Result: Detected at Tim_Sort.py: (77, 25)
+2025-03-30 10:22:55,079: Current target location: Tim_Sort.py, LocIndex(ast_class='BinOpBC', lineno=14, col_offset=13, op_type=<class 'ast.BitAnd'>, end_lineno=14, end_col_offset=18)
+2025-03-30 10:22:56,219: Result: Survived at Tim_Sort.py: (14, 13)
+2025-03-30 10:22:56,219: Break on survival: stopping further mutations at location.
+2025-03-30 10:22:56,220: Current target location: Tim_Sort.py, LocIndex(ast_class='BinOp', lineno=23, col_offset=40, op_type=<class 'ast.Sub'>, end_lineno=23, end_col_offset=45)
+2025-03-30 10:22:57,543: Result: Detected at Tim_Sort.py: (23, 40)
+2025-03-30 10:22:58,817: Result: Detected at Tim_Sort.py: (23, 40)
+2025-03-30 10:23:00,089: Result: Detected at Tim_Sort.py: (23, 40)
+2025-03-30 10:23:01,332: Result: Detected at Tim_Sort.py: (23, 40)
+2025-03-30 10:23:02,526: Result: Detected at Tim_Sort.py: (23, 40)
+2025-03-30 10:23:03,713: Result: Detected at Tim_Sort.py: (23, 40)
+2025-03-30 10:23:03,713: Current target location: Tim_Sort.py, LocIndex(ast_class='BinOp', lineno=75, col_offset=32, op_type=<class 'ast.Mult'>, end_lineno=75, end_col_offset=40)
+2025-03-30 10:23:04,940: Result: Detected at Tim_Sort.py: (75, 32)
+2025-03-30 10:23:06,186: Result: Detected at Tim_Sort.py: (75, 32)
+2025-03-30 10:23:07,383: Result: Detected at Tim_Sort.py: (75, 32)
+2025-03-30 10:23:08,648: Result: Detected at Tim_Sort.py: (75, 32)
+2025-03-30 10:23:09,913: Result: Detected at Tim_Sort.py: (75, 32)
+2025-03-30 10:23:11,169: Result: Detected at Tim_Sort.py: (75, 32)
+2025-03-30 10:23:11,169: Current target location: Tim_Sort.py, LocIndex(ast_class='Compare', lineno=45, col_offset=10, op_type=<class 'ast.Lt'>, end_lineno=45, end_col_offset=23)
+2025-03-30 10:23:12,298: Result: Survived at Tim_Sort.py: (45, 10)
+2025-03-30 10:23:12,298: Break on survival: stopping further mutations at location.
+2025-03-30 10:23:12,299: Current target location: Tim_Sort.py, LocIndex(ast_class='BinOp', lineno=21, col_offset=19, op_type=<class 'ast.Add'>, end_lineno=21, end_col_offset=27)
+2025-03-30 10:23:13,407: Result: Survived at Tim_Sort.py: (21, 19)
+2025-03-30 10:23:13,408: Break on survival: stopping further mutations at location.
+2025-03-30 10:23:13,408: Current target location: Tim_Sort.py, LocIndex(ast_class='Compare', lineno=78, col_offset=15, op_type=<class 'ast.Lt'>, end_lineno=78, end_col_offset=26)
+2025-03-30 10:23:14,634: Result: Detected at Tim_Sort.py: (78, 15)
+2025-03-30 10:23:15,838: Result: Detected at Tim_Sort.py: (78, 15)
+2025-03-30 10:23:17,050: Result: Detected at Tim_Sort.py: (78, 15)
+2025-03-30 10:23:18,164: Result: Survived at Tim_Sort.py: (78, 15)
+2025-03-30 10:23:18,165: Break on survival: stopping further mutations at location.
+2025-03-30 10:23:18,165: Current target location: Tim_Sort.py, LocIndex(ast_class='AugAssign', lineno=52, col_offset=8, op_type='AugAssign_Add', end_lineno=52, end_col_offset=14)
+2025-03-30 10:23:19,379: Result: Detected at Tim_Sort.py: (52, 8)
+2025-03-30 10:23:20,603: Result: Detected at Tim_Sort.py: (52, 8)
+2025-03-30 10:23:21,812: Result: Detected at Tim_Sort.py: (52, 8)
+2025-03-30 10:23:21,813: Current target location: Tim_Sort.py, LocIndex(ast_class='BinOp', lineno=76, col_offset=29, op_type=<class 'ast.Sub'>, end_lineno=76, end_col_offset=44)
+2025-03-30 10:23:23,043: Result: Detected at Tim_Sort.py: (76, 29)
+2025-03-30 10:23:24,268: Result: Detected at Tim_Sort.py: (76, 29)
+2025-03-30 10:23:25,550: Result: Detected at Tim_Sort.py: (76, 29)
+2025-03-30 10:23:26,836: Result: Detected at Tim_Sort.py: (76, 29)
+2025-03-30 10:23:28,036: Result: Detected at Tim_Sort.py: (76, 29)
+2025-03-30 10:23:29,229: Result: Detected at Tim_Sort.py: (76, 29)
+2025-03-30 10:23:29,229: Running clean trial
+============================================================ test session starts ============================================================
+platform win32 -- Python 3.9.13, pytest-8.3.4, pluggy-1.5.0
+rootdir: C:\Masters\SYSC5807X\SYSC5807_Term_Proj\z3_tim_sort
+plugins: anyio-4.8.0, hypothesis-6.127.2, langsmith-0.3.8
+collected 1 item                                                                                                                             
+
+test_tim_sort_z3.py .                                                                                                                  [100%]
+
+============================================================= 1 passed in 0.39s =============================================================
+2025-03-30 10:23:30,345: CLI Report:
+
+Mutatest diagnostic summary
+===========================
+ - Source location: C:\Masters\SYSC5807X\SYSC5807_Term_Proj\z3_tim_sort\Tim_sort.py
+ - Test commands: ['pytest']
+ - Mode: s
+ - Excluded files: []
+ - N locations input: 10
+ - Random seed: None
+
+Random sample details
+---------------------
+ - Total locations mutated: 10
+ - Total locations identified: 48
+ - Location sample coverage: 20.83 %
+
+
+Running time details
+--------------------
+ - Clean trial 1 run time: 0:00:01.779915
+ - Clean trial 2 run time: 0:00:01.114358
+ - Mutation trials total run time: 0:00:46.613663
+
+2025-03-30 10:23:30,346: Trial Summary Report:
+
+Overall mutation trial summary
+==============================
+ - DETECTED: 33
+ - SURVIVED: 5
+ - TOTAL RUNS: 38
+ - RUN DATETIME: 2025-03-30 10:23:30.345658
+
+2025-03-30 10:23:30,346: Detected mutations:
+
+DETECTED
+--------
+ - Tim_Sort.py: (l: 23, c: 27) - mutation from <class 'ast.Lt'> to <class 'ast.NotEq'>
+ - Tim_Sort.py: (l: 23, c: 27) - mutation from <class 'ast.Lt'> to <class 'ast.Gt'>
+ - Tim_Sort.py: (l: 23, c: 27) - mutation from <class 'ast.Lt'> to <class 'ast.GtE'>
+ - Tim_Sort.py: (l: 23, c: 40) - mutation from <class 'ast.Sub'> to <class 'ast.Div'>
+ - Tim_Sort.py: (l: 23, c: 40) - mutation from <class 'ast.Sub'> to <class 'ast.Mult'>
+ - Tim_Sort.py: (l: 23, c: 40) - mutation from <class 'ast.Sub'> to <class 'ast.Pow'>
+ - Tim_Sort.py: (l: 23, c: 40) - mutation from <class 'ast.Sub'> to <class 'ast.Add'>
+ - Tim_Sort.py: (l: 23, c: 40) - mutation from <class 'ast.Sub'> to <class 'ast.FloorDiv'>
+ - Tim_Sort.py: (l: 23, c: 40) - mutation from <class 'ast.Sub'> to <class 'ast.Mod'>
+ - Tim_Sort.py: (l: 52, c: 8) - mutation from AugAssign_Add to AugAssign_Mult
+ - Tim_Sort.py: (l: 52, c: 8) - mutation from AugAssign_Add to AugAssign_Sub
+ - Tim_Sort.py: (l: 52, c: 8) - mutation from AugAssign_Add to AugAssign_Div
+ - Tim_Sort.py: (l: 75, c: 32) - mutation from <class 'ast.Mult'> to <class 'ast.Mod'>
+ - Tim_Sort.py: (l: 75, c: 32) - mutation from <class 'ast.Mult'> to <class 'ast.Sub'>
+ - Tim_Sort.py: (l: 75, c: 32) - mutation from <class 'ast.Mult'> to <class 'ast.FloorDiv'>
+ - Tim_Sort.py: (l: 75, c: 32) - mutation from <class 'ast.Mult'> to <class 'ast.Div'>
+ - Tim_Sort.py: (l: 75, c: 32) - mutation from <class 'ast.Mult'> to <class 'ast.Add'>
+ - Tim_Sort.py: (l: 75, c: 32) - mutation from <class 'ast.Mult'> to <class 'ast.Pow'>
+ - Tim_Sort.py: (l: 76, c: 29) - mutation from <class 'ast.Sub'> to <class 'ast.Mod'>
+ - Tim_Sort.py: (l: 76, c: 29) - mutation from <class 'ast.Sub'> to <class 'ast.FloorDiv'>
+ - Tim_Sort.py: (l: 76, c: 29) - mutation from <class 'ast.Sub'> to <class 'ast.Mult'>
+ - Tim_Sort.py: (l: 76, c: 29) - mutation from <class 'ast.Sub'> to <class 'ast.Add'>
+ - Tim_Sort.py: (l: 76, c: 29) - mutation from <class 'ast.Sub'> to <class 'ast.Div'>
+ - Tim_Sort.py: (l: 76, c: 29) - mutation from <class 'ast.Sub'> to <class 'ast.Pow'>
+ - Tim_Sort.py: (l: 77, c: 25) - mutation from <class 'ast.Add'> to <class 'ast.Sub'>
+ - Tim_Sort.py: (l: 77, c: 25) - mutation from <class 'ast.Add'> to <class 'ast.Pow'>
+ - Tim_Sort.py: (l: 77, c: 25) - mutation from <class 'ast.Add'> to <class 'ast.Mult'>
+ - Tim_Sort.py: (l: 77, c: 25) - mutation from <class 'ast.Add'> to <class 'ast.FloorDiv'>
+ - Tim_Sort.py: (l: 77, c: 25) - mutation from <class 'ast.Add'> to <class 'ast.Mod'>
+ - Tim_Sort.py: (l: 77, c: 25) - mutation from <class 'ast.Add'> to <class 'ast.Div'>
+ - Tim_Sort.py: (l: 78, c: 15) - mutation from <class 'ast.Lt'> to <class 'ast.Gt'>
+ - Tim_Sort.py: (l: 78, c: 15) - mutation from <class 'ast.Lt'> to <class 'ast.GtE'>
+ - Tim_Sort.py: (l: 78, c: 15) - mutation from <class 'ast.Lt'> to <class 'ast.Eq'>
+
+2025-03-30 10:23:30,346: Timedout mutations:
+
+2025-03-30 10:23:30,347: Surviving mutations:
+
+SURVIVED
+--------
+ - Tim_Sort.py: (l: 14, c: 13) - mutation from <class 'ast.BitAnd'> to <class 'ast.BitXor'>
+ - Tim_Sort.py: (l: 21, c: 19) - mutation from <class 'ast.Add'> to <class 'ast.Sub'>
+ - Tim_Sort.py: (l: 23, c: 27) - mutation from <class 'ast.Lt'> to <class 'ast.LtE'>
+ - Tim_Sort.py: (l: 45, c: 10) - mutation from <class 'ast.Lt'> to <class 'ast.NotEq'>
+ - Tim_Sort.py: (l: 78, c: 15) - mutation from <class 'ast.Lt'> to <class 'ast.LtE'>
